@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Supermercado+One');
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
+body	{
+	background-color: #2C3A49;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+	color: white;
+	text-align: center;
+	font-size: 10pt;
+	font-family: 'Supermercado One', cursive;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+h1		{
+	font-family: 'Permanent Marker', cursive;
+}
+.header	{
+	padding-top: 20%;
+	font-size: 56pt;
+}
+.content{
+	font-size:16pt;
+}
+.footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    font-family: 'Nova Square', cursive;
+}
+
+.footer {
+    background: none repeat scroll 0 0 transparent;
+    margin: auto;
+    font-family: 'Nova Square', cursive;
+    width: 90%;
+}
+a {
+	color:#ffffff;
+	text-decoration:blink;
+	transition:all .30s ease-in-out;
+}
+
+a:hover{
+	color:#2980B9;
+}
+.blinking-cursor {
+	font-weight: 100;
+	font-size: 20px;
+	color: white;
+	font-family: 'VT323', monospace;
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-webkit-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-ms-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
+
+@-o-keyframes 'blink' {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: white;
+	}
+}
