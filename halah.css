@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Supermercado+One');
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body	{
 	background-color: #2C3A49;
 	background-repeat: no-repeat;
@@ -15,14 +16,22 @@ body	{
 	line-height: 25px;
 }
 h1		{
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 64pt;
+	margin-bottom: 45px;
+}
+.icon	{
+	font-size:14pt;
+	line-height: 1px;
+	margin-top: 1px;
 }
 .header	{
-	padding-top: 10%;
+	padding-top: 15%;
 	font-size: 56pt;
 }
-.content{
-	font-size:16pt;
+hr 	{
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
 .footerholder {
     background: none repeat scroll 0 0 transparent;
@@ -47,60 +56,4 @@ a {
 
 a:hover{
 	color:#2980B9;
-}
-.blinking-cursor {
-	font-weight: 100;
-	font-size: 20px;
-	color: white;
-	font-family: 'VT323', monospace;
-	-webkit-animation: 1s blink step-end infinite;
-	-moz-animation: 1s blink step-end infinite;
-	-ms-animation: 1s blink step-end infinite;
-	-o-animation: 1s blink step-end infinite;
-	animation: 1s blink step-end infinite;
-}
-
-@keyframes 'blink' {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: white;
-	}
-}
-
-@-moz-keyframes blink {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: white;
-	}
-}
-
-@-webkit-keyframes 'blink' {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: white;
-	}
-}
-
-@-ms-keyframes 'blink' {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: white;
-	}
-}
-
-@-o-keyframes 'blink' {
-	from, to {
-		color: transparent;
-	}
-	50% {
-		color: white;
-	}
 }
